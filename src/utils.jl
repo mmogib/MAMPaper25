@@ -1,4 +1,4 @@
-function basenameparts(filename::String)
+	function basenameparts(filename::String)
 	parts = split(basename(filename), ".")
 	if length(parts) == 1
 		return parts[1], "UNKOWN"
